@@ -1,0 +1,28 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"display": "Default",
+	"compilerOptions": {
+		// Enable latest features
+		"lib": ["es2020"],
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleDetection": "force",
+		"moduleResolution": "Node10",
+		"declaration": true,
+		"declarationMap": true,
+		"experimentalDecorators": true,
+		"esModuleInterop": true,
+
+		// Best practices
+		"strict": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+
+		// Some stricter flags
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		// Extras
+		"resolveJsonModule": true
+	}
+}
